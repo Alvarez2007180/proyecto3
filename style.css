@@ -1,0 +1,363 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+.menu {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ #menu{
+    display: none;
+  }
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+ 
+  
+}
+
+.menu-icono {
+  display: none;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Inicio Styles */
+.inicio {
+  background-color: gainsboro;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.inicio img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.inicio h1{
+  margin-bottom: 10px;
+}
+h1{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* Main Styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.header img{
+   width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.integrantes {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.integrantes img {
+  width: 100%;
+  height: 1100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.integrantes-carrera img {
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.integrantes h2 {
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+/* Discografia Styles */
+
+.discografia {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.discografia table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.discografia th, .discografia td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.discografia th {
+  background-color: #f0f0f0;
+}
+
+/* Conciertos Styles */
+
+.conciertos {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.conciertos img {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.conciertos h5 {
+  margin-bottom: 10px;
+}
+h5 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Curiosidades Styles */
+
+.curiosidades {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.curiosidades img {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.curiosidades h6 {
+  margin-bottom: 10px;
+}
+h6 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Videos Styles */
+
+.videos {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.videos h7 {
+  margin-bottom: 10px;
+}
+.videos img{
+   width: 100%;
+  height: 800px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+h7 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.videos a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Footer Styles */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 991px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar li {
+    margin-bottom: 10px;
+  }
+
+.inicio img {
+  width: 100%;
+  height: 200px;
+  
+}
+  .integrantes {
+    margin-bottom: 10px;
+  }
+.integrantes img {
+  width: 100%;
+  height: 400px;
+  
+}
+
+.integrantes-carrera img {
+  width: 100%;
+  height: 250px;
+ 
+  }
+  .conciertos {
+    margin-bottom: 10px;
+  }
+.conciertos img {
+  width: 100%;
+  height: 200px;
+ 
+}
+  .curiosidades {
+    margin-bottom: 10px;
+  }
+.curiosidades img {
+  width: 100%;
+  height: 200px;
+ 
+}
+  .videos {
+    margin-bottom: 10px;
+  }
+.videos img{
+   width: 100%;
+  height: 400px;
+ 
+}
+}
+
+@media (max-width: 991px) {
+  .menu {
+    flex-direction: column;
+  }
+  #menu{
+    display: none;
+  }
+  . menu label{
+    cursor: pointer;
+  }
+  .logo {
+    margin-bottom: 10px; 
+    
+  }
+  .menu-icono {
+    display: block;
+    cursor: pointer;
+  }
+  .navbar ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 20px;
+    border: 1px solid #444;
+  }
+  .navbar li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .navbar a {
+    display: block;
+  }
+  #menu:checked + label + .navbar ul {
+    display: block;
+  }
+}
+
+
